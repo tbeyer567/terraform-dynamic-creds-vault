@@ -17,6 +17,7 @@ variable "tfc_org_name" {
 
 variable "tfc_project_name" {
   description = "The project in which the workspace resides."
+  default     = "Default Project"
   type        = string
 }
 
