@@ -1,6 +1,6 @@
 resource "vault_policy" "tfc" {
   name   = "tfc"
-  policy = data.vault_policy_document.tfc
+  policy = data.vault_policy_document.tfc.hcl
 }
 
 data "vault_policy_document" "tfc" {
